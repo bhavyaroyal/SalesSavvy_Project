@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+<h2>Welcome to Sales Savvy Dashboard</h2>
+
+<button onclick="logout()">Logout</button>
+</div>
+
+<script>
+function logout(){
+    localStorage.removeItem("token");
+    window.location.href="login.html";
+}
+</script>
+
+</body>
+</html>

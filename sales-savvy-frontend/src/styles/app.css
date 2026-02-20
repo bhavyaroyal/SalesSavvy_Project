@@ -1,0 +1,333 @@
+/* ================= BACKGROUND ================= */
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #dbeafe, #f0f9ff);
+  height: 100vh;
+}
+
+/* ================= CENTER CONTAINER ================= */
+
+.auth-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ================= CARD ================= */
+
+.auth-card {
+  background: white;
+  padding: 40px;
+  width: 380px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* ================= TITLE ================= */
+
+.auth-card h2 {
+  margin-bottom: 25px;
+  color: #1e3a8a;
+  font-size: 28px;
+}
+
+/* ================= LABEL ================= */
+
+.auth-card label {
+  display: block;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  color: #0ea5b7;
+  font-weight: 500;
+}
+
+/* ================= INPUT ================= */
+
+.auth-card input,
+.auth-card select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #0f172a;
+  color: white;
+  font-size: 14px;
+  outline: none;
+}
+
+/* placeholder color */
+.auth-card input::placeholder {
+  color: #94a3b8;
+}
+
+/* ================= BUTTON ================= */
+
+.auth-card button {
+  width: 100%;
+  margin-top: 22px;
+  padding: 14px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+
+  background: linear-gradient(90deg, #06b6d4, #14b8a6);
+  transition: 0.3s;
+}
+
+.auth-card button:hover {
+  transform: scale(1.03);
+  opacity: 0.9;
+}
+
+/* ================= LINK ================= */
+
+.link {
+  margin-top: 18px;
+  color: #0891b2;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(
+      135deg,
+      hwb(166 11% 34%),
+      hsl(217, 41%, 55%),
+      #ae6767
+  );
+  height: 100vh;
+}
+
+/* Center container */
+.auth-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login Card */
+.auth-card {
+  background: rgb(133, 208, 227);
+  padding: 40px;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0px 8px 25px rgba(142, 29, 121, 0.2);
+  text-align: center;
+}
+
+.auth-card h2 {
+  margin-bottom: 20px;
+}
+
+.auth-card input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.auth-card button {
+  width: 100%;
+  padding: 12px;
+  background: #522f55;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.auth-card button:hover {
+  background: #543636;
+}
+
+.link {
+  margin-top: 15px;
+  cursor: pointer;
+  color: #704183;
+}
+
+/* ================= PRODUCT PAGE ================= */
+
+.product-page {
+  padding: 30px;
+  background: #e4e7ed;
+  min-height: 100vh;
+}
+
+.page-title {
+  margin-bottom: 20px;
+}
+
+/* GRID */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+/* CARD */
+.product-card {
+  background: rgb(77, 87, 74);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 0 2px 8px rgba(7, 192, 225, 0.08);
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 18px rgba(122, 91, 109, 0.15);
+}
+
+/* IMAGE */
+.product-image {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+/* PRICE */
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* BUTTON */
+.add-btn {
+  background: #b79555;
+  border: none;
+  color: rgb(12, 9, 9);
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-btn:hover {
+  background: #24b300;
+}
+
+/* SEARCH BAR */
+
+.search-box {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  width: 250px;
+  margin: 0 20px;
+}
+
+.empty-state {
+  text-align: center;
+  margin-top: 80px;
+  color: #777;
+}
+
+.empty-state h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.search-dropdown{
+  position:absolute;
+  background:white;
+  width:250px;
+  border-radius:8px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.15);
+  margin-top:5px;
+  z-index:1000;
+}
+
+.search-item{
+  padding:10px;
+  cursor:pointer;
+}
+
+.search-item:hover{
+  background:#f2f2f2;
+}
+
+.add-cart-btn {
+  background: #111;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.add-cart-btn:hover {
+  background: #333;
+}
+
+.view-cart-btn {
+  background: #28a745;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.view-cart-btn:hover {
+  background: #1e7e34;
+}
+
+.cart-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.cart-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.cart-card:hover {
+  transform: scale(1.02);
+}
+
+.cart-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cart-price {
+  color: #a72883;
+  font-weight: bold;
+}
+
+.checkout-btn {
+  background: linear-gradient(45deg,#ff7a18,#ffb347);
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+

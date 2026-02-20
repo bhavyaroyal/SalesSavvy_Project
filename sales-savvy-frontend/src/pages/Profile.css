@@ -1,0 +1,49 @@
+.profile-container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg,#bac7d3,#bdeef1);
+}
+
+.profile-card {
+  background: rgb(151, 216, 226);
+  padding: 30px;
+  border-radius: 12px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.edit-btn {
+  background: #007bff;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.save-btn {
+  background: green;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  margin-right: 10px;
+}
+
+.cancel-btn {
+  background: red;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+}
+
+.btn-group {
+  margin-top: 10px;
+}

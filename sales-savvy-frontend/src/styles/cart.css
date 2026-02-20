@@ -1,0 +1,130 @@
+/* -------------------- Cart Page -------------------- */
+.cart-page {
+  padding: 30px;
+  background: hsl(184, 38%, 66%);
+  min-height: 100vh;
+}
+
+/* -------------------- Title -------------------- */
+.cart-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #160b0b;
+}
+
+/* -------------------- Grid layout for cart items -------------------- */
+.cart-grid {
+  display: grid;
+  gap: 20px;
+}
+
+/* -------------------- Cart Card -------------------- */
+.cart-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(185, 207, 58);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(131, 17, 17, 0.947);
+  transition: transform 0.3s, box-shadow 0.3s;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.5s forwards;
+}
+
+.cart-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 15px rgba(5, 197, 250, 0.15);
+}
+
+/* -------------------- Fade-in Animation -------------------- */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* -------------------- Product Info -------------------- */
+.cart-info h3 {
+  margin: 0;
+  color: #1b5b61;
+}
+
+.cart-info p {
+  color: #365b6c;
+  margin: 5px 0;
+}
+
+/* -------------------- Remove Button -------------------- */
+.remove-btn {
+  background: #080303;
+  color: hsl(183, 79%, 58%);
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.remove-btn:hover {
+  background: #d9363e;
+  transform: scale(1.05);
+}
+
+/* -------------------- Cart Summary -------------------- */
+.cart-summary {
+  margin-top: 30px;
+  background: rgb(99, 93, 3);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: right;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* -------------------- Checkout Button -------------------- */
+.checkout-btn {
+  margin-top: 10px;
+  background: #111;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.checkout-btn:hover {
+  background: #333;
+  transform: scale(1.05);
+}
+
+/* -------------------- Empty Cart -------------------- */
+.empty-cart {
+  text-align: center;
+  margin-top: 80px;
+  color: gray;
+  font-size: 20px;
+}
+
+
+/* Quantity buttons */
+.qty-btn {
+  background: #111;
+  color: white;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s, transform 0.2s;
+  margin: 0 5px;
+}
+
+.qty-btn:hover {
+  background: #333;
+  transform: scale(1.1);
+}
