@@ -1,1 +1,40 @@
-# SalesSavvy_Project
+# 🛒 Sales Savvy – E-Commerce Web Application
+
+## 📌 Project Overview
+Sales Savvy is a full-stack e-commerce web application developed using React.js, Spring Boot,Core Java and MySQL.  
+The application allows users to browse products, filter categories, manage cart items, and perform secure login and registration.
+
+---
+
+## 🚀 Tech Stack
+
+### Frontend
+- React.js
+- HTML
+- CSS
+- JavaScript
+- Axios
+
+### Backend
+- Spring Boot
+- Java
+- REST APIs
+
+### Database
+- MySQL
+
+---
+
+## ✨ Features
+
+✅ User Registration & Login  
+✅ Show/Hide Password Feature  
+✅ Product Listing  
+✅ Add to Cart  
+✅ Update Cart Quantity  
+✅ Remove Items from Cart  
+✅ Responsive UI
+
+---
+
+## 📂 Project Structure
