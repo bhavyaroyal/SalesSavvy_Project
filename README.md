@@ -38,3 +38,27 @@ The application allows users to browse products, filter categories, manage cart 
 ---
 
 ## 📂 Project Structure
+
+SalesSavvy_Project │ ├── sales-savvy-frontend    
+→ React Frontend ├── backend/salessavvy      
+→ Spring Boot Backend ├── database                
+→ SQL Scripts ├── README.md
+
+---
+
+## ⚙️ How to Run Project
+
+### Backend
+cd backend mvn spring-boot:  
+       Runs on:http://localhost:8080
+
+---
+
+### Frontend
+cd sales-savvy-frontend npm install npm start
+     Runs on:http://localhost:3000
+    
+---
+
+## 👩‍💻 Author
+Bhavya – Full Stack Java Developer
