@@ -61,4 +61,4 @@ cd sales-savvy-frontend npm install npm start:
 ---
 
 ## 👩‍💻 Author
-Bhavya – Full Stack Java Developer
+Bhavya Kutala – Full Stack Java Developer
