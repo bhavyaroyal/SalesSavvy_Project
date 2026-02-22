@@ -55,8 +55,8 @@ cd backend mvn spring-boot:
 ---
 
 ### Frontend
-cd sales-savvy-frontend npm install npm start
-     Runs on:http://localhost:3000
+cd sales-savvy-frontend npm install npm start:
+    Runs on:http://localhost:3000
     
 ---
 
