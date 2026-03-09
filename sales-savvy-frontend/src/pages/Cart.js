@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import axios from "axios";
 import "../styles/app.css"; // make sure app.css exists inside src/styles/
 import { placeOrder  } from "../services/orderService";
@@ -30,7 +30,7 @@ const totalPrice = cartItems.reduce(
   // -----------------------------
   // FETCH CART ITEMS
   // -----------------------------
-  const fetchCart = () => {
+  const fetchCart = useCallback(() => {
     axios.get(`http://localhost:8080/api/cart/${userId}`, {
       headers: {
         Authorization: `Bearer ${token}`
@@ -44,11 +44,11 @@ const totalPrice = cartItems.reduce(
       console.error("Error fetching cart:", err);
       setLoading(false);
     });
-  };
+  }, [userId, token]);
 
   useEffect(() => {
     fetchCart();
-  }, []);
+  }, [fetchCart]);
 
   // -----------------------------
   // INCREASE QUANTITY
@@ -138,7 +138,7 @@ const totalPrice = cartItems.reduce(
     </div>
     <div className="cart-summary">
       <h3>Total Price: ₹{totalPrice}</h3>
-      <button className="checkout-btn" onClick={() => navigate("/payment")}>Checkout</button>
+      <button className="checkout-btn" onClick={handleCheckout}>Checkout</button>
     </div>
   </div>
   );
