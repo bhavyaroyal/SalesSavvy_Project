@@ -60,5 +60,31 @@ cd sales-savvy-frontend npm install npm start:
     
 ---
 
+1️⃣ GitHub Repository
+
+https://github.com/bhavyaroyal/SalesSavvy_Project
+
+2️⃣ Backend API Link
+
+backend server:
+
+https://sales-savvy-backend-ejlo.onrender.com
+
+API endpoint:
+
+https://sales-savvy-backend-ejlo.onrender.com/api/products
+
+3️⃣ Frontend Website (Netlify)
+
+https://salessavvy.netlify.app
+
+This is live website.
+
+4️⃣ API Documentation (optional but good)
+
+If Swagger added:
+
+https://sales-savvy-backend-ejlo.onrender.com/swagger-ui.html
+
 ## 👩‍💻 Author
 Bhavya Kutala – Full Stack Java Developer
